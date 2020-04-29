@@ -25,6 +25,26 @@
     "app-1-e2e": {
       "tags": [],
       "implicitDependencies": ["app-1"]
+    },
+    "react-ui-media-query": {
+      "tags": []
+    },
+    "react-ui-scroll-provider": {
+      "tags": []
+    },
+    "examples-data-visualization-victory": {
+      "tags": []
+    },
+    "examples/data-visualization/victory-e2e": {
+      "tags": [],
+      "implicitDependencies": ["examples-data-visualization-victory"]
+    },
+    "examples-data-visualization-line-chart": {
+      "tags": []
+    },
+    "examples/data-visualization/line-chart-e2e": {
+      "tags": [],
+      "implicitDependencies": ["examples-data-visualization-line-chart"]
     }
   }
 }
