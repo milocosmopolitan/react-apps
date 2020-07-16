@@ -21,7 +21,8 @@ export const useScrollHeight = () => {
     // return (winScroll && height) ? winScroll / height : 0;
 
     return {
-      top, height,
+      top,
+      height,
       scrolled: (top && height) ? top / height : 0
       // speed:   
     }

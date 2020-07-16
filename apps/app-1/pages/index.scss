@@ -1,11 +1,29 @@
 @import '../styles/reset';
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic&subset=latin,latin-ext');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 /*
  * Remove template code below
  */
 
-.app {
-  // font-family: sans-serif;
-  // min-width: 300px;
-  // max-width: 600px;
-  // margin: 50px auto;
-}
+// .app {
+//   // font-family: sans-serif;
+//   // min-width: 300px;
+//   // max-width: 600px;
+//   // margin: 50px auto;
+// }
+
+// .guide-grid-10x10 {
+//   background-image: url('10x10.png');
+// }
+
+// .guide-grid-100x100 {
+//   background-image: url('100x100.png');
+// }

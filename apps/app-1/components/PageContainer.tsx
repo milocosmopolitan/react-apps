@@ -4,13 +4,15 @@ import { useAnimationFrame } from '../hooks/animation.effect';
 
 export interface PageContainerProps {
   bg?: string;
-  children: any;
+  children?: any;
 }
 
 const StyledPageContainer = styled.div`
   color: pink;
-  background: blue;
+  // background-image: url('10x10.png');
+  position: relative;
 `;
+// background-repeat: 
 
 export const PageContainer = (props: PageContainerProps) => {
   const [count, setCount] = React.useState(0)
@@ -23,7 +25,7 @@ export const PageContainer = (props: PageContainerProps) => {
 
   return (
     <StyledPageContainer>
-      <div>{Math.round(count)}</div>
+      {/* <div>{Math.round(count)}</div> */}
       <div data-scroll>
         {props.children}
       </div>
