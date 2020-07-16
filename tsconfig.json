@@ -16,10 +16,19 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@react-ui/media-query": ["libs/react-ui/media-query/src/index.ts"],
-      "@react-apps/react-ui/scroll-provider": [
+      "@react-workspace/media-query": [
+        "libs/react-ui/media-query/src/index.ts"
+      ],
+      "@react-workspace/react-ui/scroll-provider": [
         "libs/react-ui/scroll-provider/src/index.ts"
-      ]
+      ],
+      "@react-workspace/scroll-q": [
+        "libs/react-ui/animations/scroll-q/src/index.ts"
+      ],
+      "@react-workspace/react-ui/common": [
+        "libs/react-ui/common/src/index.ts"
+      ],
+      "@react-workspace/react-ui/layout": ["libs/react-ui/layout/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

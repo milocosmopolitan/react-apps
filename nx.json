@@ -1,5 +1,5 @@
 {
-  "npmScope": "react-apps",
+  "npmScope": "react-workspace",
   "implicitDependencies": {
     "workspace.json": "*",
     "package.json": {
@@ -45,6 +45,43 @@
     "examples/data-visualization/line-chart-e2e": {
       "tags": [],
       "implicitDependencies": ["examples-data-visualization-line-chart"]
+    },
+    "react-ui-animations-scroll-q": {
+      "tags": []
+    },
+    "examples-scroll-animations": {
+      "tags": []
+    },
+    "examples/scroll-animations-e2e": {
+      "tags": [],
+      "implicitDependencies": ["examples-scroll-animations"]
+    },
+    "examples-react-rxjs": {
+      "tags": []
+    },
+    "examples/react-rxjs-e2e": {
+      "tags": [],
+      "implicitDependencies": ["examples-react-rxjs"]
+    },
+    "react-ui-common": {
+      "tags": []
+    },
+    "commercial-app-1": {
+      "tags": []
+    },
+    "commercial/app-1-e2e": {
+      "tags": [],
+      "implicitDependencies": ["commercial-app-1"]
+    },
+    "examples-horizontal-scroll-section": {
+      "tags": []
+    },
+    "examples/horizontal-scroll-section-e2e": {
+      "tags": [],
+      "implicitDependencies": ["examples-horizontal-scroll-section"]
+    },
+    "react-ui-layout": {
+      "tags": []
     }
   }
 }
